@@ -1,0 +1,82 @@
+{
+
+  "bg": {"path":"images/bg.png"},
+ 
+  "logo": {"path":"images/logo.png","align":"left","x":"20","y":"20","yflex":"0","posx":"0","posy":"0","scale":"1"},
+
+  "buttplay": {"align":"right","x":"0","y":"20","yflex":"0","posx":"0.5","posy":"0.5","scale":"1"},
+
+  "imgs":[{"path":"images/company0.png","name":"company0"},{"path":"images/company1.png","name":"company1"}],
+
+  "objs":[{"name":"clip","atlas":"atlas","imgs":["clip0.png","clip1.png","clip2.png","clip3.png","clip4.png"],
+    "poly":["-130","-47","130","-47","145","0","130","47","-130","47","-145","0"]},
+    {"name":"candy","atlas":"atlas","imgs":["candy0.png","candy1.png","candy2.png","candy3.png"],
+      "poly":["-50","-70","50","-70","110","0","50","70","-50","70","-110","0"]},
+    {"name":"pen","atlas":"atlas","imgs":["pen0.png","pen1.png","pen2.png","pen3.png","pen4.png"],
+      "poly":["-250","-30","250","-30","250","30","-250","30"]},
+    {"name":"pencil","atlas":"atlas","imgs":["pencil0.png","pencil1.png","pencil2.png","pencil3.png"],
+      "poly":["0","-46","265","-8","262","34","-270","30","-270","-30"]},
+    {"name":"band","atlas":"atlas","imgs":["rubber0.png","rubber1.png","rubber2.png","rubber3.png"],
+      "poly":["-80","-80","80","-80","80","80","-80","80"]},
+    {"name":"scissors","atlas":"atlas","imgs":["scissors0.png"]},
+    {"name":"pin","atlas":"atlas","imgs":["pin0.png","pin1.png","pin2.png","pin3.png"],
+      "poly":["-130","-50","0","-50","0","130","0","50","-130","50"]},
+    {"name":"star","atlas":"atlas","imgs":["star0.png","star1.png","star2.png"],
+      "poly":["-160","-40","0","-160","170","-20","70","155","-70","155"]},
+    {"name":"company","imgs":["company0","company1"],
+      "poly":["-110","-110","110","-110","110","110","-110","110"]}
+  ],
+
+  "types":[
+
+    {"max":["6","25"],"min":["3","10"],"wait":["7","5"],"scores":["5","10","15","20","25"],
+      "layers":
+      [
+        [{"name":"star","scale":"1","ang":["-45","90"],"flip":"false","max":"4","from":"3"},
+          {"name":"company","scale":"1","ang":["-30","60"],"flip":"false","max":"3","from":"5"}],
+
+        [{"name":"clip","scale":"1","ang":["20","50"],"flip":"true","max":"10","from":"0"},
+          {"name":"candy","scale":"1","ang":["20","50"],"flip":"true","max":"10","from":"5"},
+          {"name":"pin","scale":"1","ang":["20","50"],"flip":"true","max":"10","from":"0"}],
+
+        [{"name":"band","scale":"1","ang":["0","45"],"flip":"true","max":"5","from":"10"}]
+      ]
+    }
+  ],
+
+  "matches":[{"quests":"20","type":"0","buttons":"4","allright":"1000","vars":{"min":"0.3","max":"0.6"}},
+    {"quests":"25","type":"0","buttons":"4","allright":"1000"},
+    {"quests":"25","type":"0","buttons":"4","allright":"1000"}],
+
+  "heap":{"pos":"self","x":"0","y":"-100","yflex":"0","posx":"0.5","posy":"0.5",
+    "scale":"1","width":"1700","height":"700", "gauge":{"y":"500"},"buttons":{"y":"650"}},
+
+  "first":{"valid":"true"},
+
+  "field":{"color":"0xd8d8d8"},
+
+  "answers":{ "pos":"out","x":"0","y":"500","yflex":"0","posx":"0.5","posy":"0.5","scale":"1","stepx":"300",
+    "butt":{"color":"0xFFFFFF"},"text":{"y":"0","color0":"0xe51f23","color1":"0xFFFFFF","size":"120","scale":"0.8"}},
+
+  "scores":[{"color":"0xFFFFFF","val":"100","size":"0.8"},
+    {"color":"0xFF0000","val":"-200","size":"0.8"}, {"color":"0xFFFF00","val":"200","size":"1"}],
+
+  "slider":{"pos":"out","scale":"1","posx":"0.5","posy":"0.2","x":"0","y":"0","soundstart":"3","soundmin":"0.2",
+    "slider":{"color":"0xFF0000"}, "bg":{"color":"0x000000","alpha":"0.2"}},
+
+  "score":{"scale":"1","posx":"0.5","posy":"0","x":"-150","y":"30",
+    "text":{"font":"MainFont","size":"85","color":"0xd22813","x":"310","y":"55","scale":"0.5"}},
+
+  "donewnd":{"top":{"done":"Results","fail":"Results","y":"-365","color":"0x222222","size":"90"},
+    "answers":{"text":"Answers","y":"-210","dy":"120","size0":"70","size1":"100","color0":"0x222222","color1":"0x222222"},
+    "score":{"text":"Score","y":"50","dy":"100","size0":"70","size1":"100","color0":"0x222222","color1":"0x222222"},
+    "button":{"y":"360","color":"0xFFFFFF"},
+    "wnd":{"img":"wnd.png","color":"0xFFFFFF"}},
+
+  "start":{"top":{"y":"-300","text":"Guess how many\nobjects you see","size":"90","color":"0x222222"},
+    "play":{"y":"320","color":"0xFFFFFF"},
+    "objs":[{"x":"0","y":"20","img":"clip1.png","scale":"0.8","ang":"-45"},
+      {"x":"-150","y":"20","img":"candy1.png","scale":"0.7","ang":"-45"},
+      {"x":"150","y":"20","img":"pin0.png","scale":"0.8","ang":"-45"}]}
+}
+

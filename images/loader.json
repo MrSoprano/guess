@@ -1,0 +1,25 @@
+{
+"frames": {
+	"bg.png": {
+		"frame": {"x":0, "y":58, "w":256, "h":256},
+		"spriteSourceSize": {"x":0,"y":0,"w":256,"h":256},
+		"sourceSize": {"w":256,"h":256}
+	},
+	"slider.png": {
+		"frame": {"x":0, "y":29, "w":508, "h":28},
+		"spriteSourceSize": {"x":0,"y":0,"w":508,"h":28},
+		"sourceSize": {"w":508,"h":28}
+	},
+	"sliderbg.png": {
+		"frame": {"x":0, "y":0, "w":508, "h":28},
+		"spriteSourceSize": {"x":0,"y":0,"w":508,"h":28},
+		"sourceSize": {"w":508,"h":28}
+	}
+
+},
+"meta": {
+	"image": "sprites2x.png",
+	"size": {"w": 512, "h": 512},
+	"scale": "1"
+}
+}

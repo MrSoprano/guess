@@ -1,0 +1,91 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0 , user-scalable=no, maximum-scale=1.0"/>
+    <meta name="HandheldFriendly" content="True"/>
+    <meta http-equiv="Cache-Control" content="no-cache"/>
+
+    <!--   <link rel="apple-touch-startup-image" href="images/bunny.png"> -->
+    <!--    <link rel="apple-touch-icon" href="images/bunny.png"/> -->
+    <!--     <link rel="apple-touch-icon" sizes="72x72" href="images/72x72.png"/>
+     <link rel="apple-touch-icon" sizes="114x114" href="images/114x114.png"/>
+     <link rel="apple-touch-icon" sizes="144x144" href="images/144x144.png"/> -->
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"/>
+
+    <meta name="application-name" content="Title"/>
+    <meta name="msapplication-tooltip" content="Description"/>
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+
+    <meta http-equiv="imagetoolbar" content="no"/>
+    <!--  <link rel="icon" sizes="196x196" href="images/bunny.png">  -->
+    <title>Guess how many</title>
+
+
+    <style>
+
+        @font-face {
+            font-family: FontVector;
+            src: url('fonts/shrutib.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        .fontPreload {
+            font-family: 'FontVector';
+            position:absolute;
+        }
+
+        head{
+            background-color: #FFFFFF;
+        }
+
+
+        head{
+            background-color: #FFFFFF;
+        }
+
+        body{
+            margin:0;
+            padding:0;
+            overflow:hidden;
+            text-align: center;
+            background-color: #FFFFFF;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+
+    </style>
+</head>
+
+<body>
+
+<div class="fontPreload"></div>
+
+<div id="gameContainer">
+    <script src="code/libs/phaser-no-physics.min.js"></script>
+    <script src="code/libs/SAT.js"></script>
+
+    <script type="text/javascript" src="code/Boot.js"></script>
+    <script type="text/javascript" src="code/Preloader.js"></script>
+    <script type="text/javascript" src="code/Game.js"></script>
+    <script type="text/javascript" src="code/CGame.js"></script>
+    <script type="text/javascript" src="code/Utils.js"></script>
+    <script type="text/javascript" src="code/Mics.js"></script>
+    <script type="text/javascript" src="code/Elements.js"></script>
+    <script type="text/javascript" src="code/UI.js"></script>
+    <script type="text/javascript" src="code/Main.js"></script>
+
+</div>
+
+</body>
+
+
+
+</html>
